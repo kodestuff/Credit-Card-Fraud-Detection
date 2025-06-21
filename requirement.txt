@@ -1,1 +1,11 @@
+`requirements.txt`
 
+This file helps others install the same libraries you used:
+
+```txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
