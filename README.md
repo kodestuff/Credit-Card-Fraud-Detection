@@ -61,15 +61,14 @@ The objective is to detect fraud transactions from anonymized credit card data. 
    ```bash
    git clone https://github.com/kodestuff/CC_Fraud_Detection.git
    cd CC_Fraud_Detection
-Create virtual environment (optional but recommended)
+   
+## Create virtual environment (optional but recommended)
+   python -m venv venv
+   source venv/bin/activate  # on Windows use venv\\Scripts\\activate
+   
+## Install dependencies:
+   pip install -r requirements.txt
 
-
-python -m venv venv
-source venv/bin/activate  # on Windows use venv\\Scripts\\activate
-Install dependencies:
-
-pip install -r requirements.txt
-Run the notebook:
-
-jupyter notebook CC_fraud_detection.ipynb
+## Run the notebook:
+   jupyter notebook CC_fraud_detection.ipynb
 
