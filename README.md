@@ -1,4 +1,4 @@
-#Credit Card Fraud Detection Project
+## Credit Card Fraud Detection Project
 
 A machine learning project to detect fraudulent credit card transactions using Python, pandas, and scikit-learn. Built with a real-world imbalanced dataset and trained using SMOTE + Random Forest.
 
